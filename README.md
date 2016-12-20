@@ -6,7 +6,7 @@
 
 ## 第一坑：不支持 async
 
-koa2 中间件支持三种写法，参考[官方文档](https://github.com/koajs/koa/blob/v2.x/Readme.md)
+koa2 中间件支持三种写法，参考[官方文档](https://github.com/koajs/koa/blob/v2.x/Readme.md)。
 
 * common function
 * async function
@@ -37,7 +37,7 @@ const Promise = require('any-promise')
 npm install
 ```
 
-2、编辑，注释 const Promise = require('any-promise')
+2、编辑以下文件，注释 const Promise = require('any-promise')
 ```sh
 vim node_modules/koa-compose/index.js
 ```
@@ -54,5 +54,5 @@ npm run deploy
 
 5、访问
 ```sh
-http://localhost:3000
+[http://localhost:3000](http://localhost:3000)
 ```
