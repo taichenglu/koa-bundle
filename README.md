@@ -54,5 +54,5 @@ npm run deploy
 
 5、访问
 ```sh
-[http://localhost:3000](http://localhost:3000)
+http://localhost:3000
 ```
